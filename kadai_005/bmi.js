@@ -1,14 +1,8 @@
-let userWeight;
+let userWeight = 68;
 
-userWeight = '体重'
+let userHeight = 1.7;
 
-let userHeight;
-
-userHeight = '身長'
-
-let userBmi;
-
-userBmi = 68 / (1.7 * 1.7);
+let userBmi = userWeight / (userHeight * userHeight);
 
 console.log(userWeight);
 console.log(userHeight);
