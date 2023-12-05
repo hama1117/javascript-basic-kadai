@@ -5,26 +5,24 @@ let num = Math.floor(Math.random() *15)+1;
 console.log(num);
 
 // 変数numの値によって出力する文字列を切り替える
-switch (num) {
-   case 3:
+if (num === 3) {
     console.log('3の倍数です');
-    break;
-   case 6:
+}
+if (num === 6) {
     console.log('3の倍数です');
-    break;
-   case 9:
+}
+if (num === 9) {
     console.log('3の倍数です');
-    break;
-   case 12:
+}
+if (num === 12) {
     console.log('3の倍数です');
-    break;
-   case 15:
+}
+if (num === 5) {
+    console.log('5の倍数です');
+}
+if (num === 10) {
+    console.log('5の倍数です');
+}
+if (num === 15) {
     console.log('3と5の倍数です');
-    break;
-   case 5:
-    console.log('5の倍数です');
-    break;
-   case 10:
-    console.log('5の倍数です');
-    break;
 }
