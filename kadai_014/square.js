@@ -1,5 +1,5 @@
 const numSquared = (num) => {
-  console.log(Math.pow(num, 2))
+  return Math.pow(num, 2);
 }
 
-numSquared(5);
+console.log(numSquared(5));
